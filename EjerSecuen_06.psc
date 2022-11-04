@@ -1,4 +1,4 @@
-Algoritmo ejerSecuen_06
+Algoritmo EjerSecuen_06
 	Definir a, b, c, x1, x2, op Como Real;
 	
 	Escribir  "************************************";
@@ -18,6 +18,6 @@ Algoritmo ejerSecuen_06
 	x1 = (-b + op)/ (2 * a);
 	x2 = (-b - op)/ (2 * a);
 	
-	Escribir "La solución x1 es ", x1;
-	Escribir "La solución x2 es ", x2;
+	Escribir "La soluciÃ³n x1 es ", x1;
+	Escribir "La soluciÃ³n x2 es ", x2;
 FinAlgoritmo
