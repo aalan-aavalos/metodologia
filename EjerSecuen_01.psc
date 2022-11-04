@@ -1,4 +1,4 @@
-Algoritmo ejerSecuen_01
+Algoritmo EjerSecuen_01
 	Definir pesMexIngr, mit1, mit2, mit Como Real;
 	
 	Escribir  "************************************";
