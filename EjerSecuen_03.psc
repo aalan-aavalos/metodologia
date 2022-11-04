@@ -1,4 +1,4 @@
-Algoritmo ejerSecuen_03
+Algoritmo EjerSecuen_03
 	Definir  edad, lpm Como Entero;
 	
 	Escribir  "************************************";
