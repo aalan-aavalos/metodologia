@@ -1,4 +1,4 @@
-Algoritmo ejerSecuen_07
+Algoritmo EjerSecuen_07
 	Definir pres, presGi, presTr, presPe Como Real;
 	
 	Escribir  "************************************";
@@ -6,8 +6,8 @@ Algoritmo ejerSecuen_07
 	Escribir  "*Autor: Alan Avalos                *";
 	Escribir  "************************************";
 	Escribir  "*Ginecologia ------------------ 40%*";
-	Escribir  "*Traumatología ---------------- 30%*";
-	Escribir  "*Pediatría -------------------- 30%*";
+	Escribir  "*TraumatologÃ­a ---------------- 30%*";
+	Escribir  "*PediatrÃ­a -------------------- 30%*";
 	Escribir  "************************************";
 	Escribir  "";
 	Escribir Sin Saltar "Ingrese el presupuesto anual del hospital: ";
@@ -18,7 +18,7 @@ Algoritmo ejerSecuen_07
 	presPe = pres * 0.30;
 	
 	Escribir "De acuerdo al presupuesto $", pres, " para las areas son: ";
-	Escribir "Ginecología: ", presGi;
-	Escribir "Traumatología: ", presTr;
-	Escribir "Pediatría: ", presPe;
+	Escribir "GinecologÃ­a: ", presGi;
+	Escribir "TraumatologÃ­a: ", presTr;
+	Escribir "PediatrÃ­a: ", presPe;
 FinAlgoritmo
