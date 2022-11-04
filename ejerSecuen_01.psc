@@ -1,10 +1,10 @@
 Algoritmo ejerSecuen_01
 	Definir pesMexIngr, mit1, mit2, mit Como Real;
 	
-	Escribir  "***********************************";
-	Escribir  "*Algoritmo de CAMBIO DE DIVISAS   *";
-	Escribir  "*Autor: Alan Avalos               *";
-	Escribir  "***********************************";
+	Escribir  "************************************";
+	Escribir  "*Algoritmo de CAMBIO DE DIVISAS    *";
+	Escribir  "*Autor: Alan Avalos                *";
+	Escribir  "************************************";
 	
 	Escribir Sin Saltar "Ingresa la cantidad en pesos Mexicanos: ";
 	Leer pesMexIngr;
