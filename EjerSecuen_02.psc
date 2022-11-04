@@ -1,4 +1,4 @@
-Algoritmo ejerSecuen_02
+Algoritmo EjerSecuen_02
 	Definir numIngr, numAbs Como Real;
 	
 	Escribir  "************************************";
