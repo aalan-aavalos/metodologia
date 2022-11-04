@@ -1,4 +1,4 @@
-Algoritmo ejerSecuen_05
+Algoritmo EjerSecuen_05
 	Definir num, numTot Como Entero;
 	
 	Escribir  "************************************";
