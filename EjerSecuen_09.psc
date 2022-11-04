@@ -1,4 +1,4 @@
-Algoritmo ejerSecuen_09
+Algoritmo EjerSecuen_09
          Definir catA, catB, hip Como Real; 
          Escribir  "************************************"; 
          Escribir  "*Algoritmo de GANANCIA DE ARTICULO *"; 
