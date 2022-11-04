@@ -1,4 +1,4 @@
-Algoritmo ejerSecuen_10
+Algoritmo EjerSecuen_10
          Definir talla, masa, imc Como Real;
 
          Escribir  "**************"; 
