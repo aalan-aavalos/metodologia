@@ -1,4 +1,4 @@
-Algoritmo ejerSecuen_08
+Algoritmo EjerSecuen_08
 	Definir prec, gan, precPubli Como Real;
 	Escribir  "************************************";
 	Escribir  "*Algoritmo de GANANCIA DE ARTICULO *";
