@@ -1,4 +1,4 @@
-Algoritmo ejerSecuen_04
+Algoritmo EjerSecuen_04
 	Definir salario, porce, total Como Real;
 	
 	Escribir  "************************************";
