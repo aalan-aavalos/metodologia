@@ -7,6 +7,7 @@ Algoritmo CD04_IniciaVocCons
 	Escribir "*              CONSONANTE           *";
 	Escribir  "* Autor: Alan Avalos               *";
 	Escribir  "************************************";
+	Escribir "";
 	
 	Escribir Sin Saltar "Ingresa nombre, 3 - 30 caracteres: ";
 	Leer nom;

@@ -11,6 +11,7 @@ Algoritmo CD03_SalarioSemanal
 	Escribir  "* La hora se paga en $16           *";
 	Escribir  "* La hora extra se paga en $32     *";
 	Escribir  "************************************";
+	Escribir "";
 	
 	Escribir Sin Saltar "Ingrese las horas trabajadas";
 	Leer horas;

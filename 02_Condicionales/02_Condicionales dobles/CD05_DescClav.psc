@@ -8,6 +8,7 @@ Algoritmo CD05_DescClav
 	Escribir "*              ARTICULO            *";
 	Escribir "* Autor: Alan Avalos               *";
 	Escribir "************************************";
+	Escribir "";
 	
 	Escribir Sin Saltar "Ingresa el nombre del articulo";
 	Leer nomArt;

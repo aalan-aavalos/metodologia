@@ -8,6 +8,7 @@ Algoritmo CD02_PrecProduAlmac
 	Escribir  "* el descuento se hara si el monto *";
 	Escribir  "* es > $1000                       *";
 	Escribir  "************************************";
+	Escribir "";
 	
 	Escribir Sin Saltar "Ingresa el monto";
 	Leer monto;

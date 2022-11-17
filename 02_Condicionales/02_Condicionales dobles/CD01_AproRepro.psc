@@ -9,6 +9,7 @@ Algoritmo CD01_AproRepro
 	Escribir  "* aprobaste o reprobaste, la       *";
 	Escribir  "* calif. minima es 8               *";
 	Escribir  "************************************";
+	Escribir "";
 	
 	Escribir Sin Saltar "Ingresa la calif. 1";
 	Leer cal1;
