@@ -1,0 +1,38 @@
+Algoritmo licencia_07
+	Definir num, fecha, domicilio, nacionalidad, otorgamiento, categoria, clase, sexo, apellido, nombre, vencimiento  Como Cadena;
+	Escribir "Liciencia de conducir";
+	Escribir "*********************************************";
+	Escribir "Ingrese numero de licencia: ";
+	Leer num;
+	Limpiar Pantalla;
+	Escribir "Ingrese sexo: ";
+	Leer sexo;
+	Limpiar Pantalla;
+	Escribir "Ingrese apellido(s): ";
+	Leer apellido;
+	Limpiar Pantalla;
+	Escribir "Ingrese nombre(s): ";
+	Leer nombre;
+	Limpiar Pantalla;
+	Escribir "Ingrese fecha de nacimiento: ";
+	Leer fecha;
+	Limpiar Pantalla;
+	Escribir "Ingrese domicilio: ";
+	Leer domicilio;
+	Limpiar Pantalla;
+	Escribir "Ingrese nacionalidad: ";
+	Leer nacionalidad;
+	Limpiar Pantalla;
+	Escribir "Ingrese fecha de otorgamiento: ";
+	Leer otorgamiento;
+	Limpiar Pantalla;
+	Escribir "Ingrese fecha de vencimiento: ";
+	Leer vencimiento;
+	Limpiar Pantalla;
+	Escribir "Ingrese categoria: ";
+	Leer categoria;
+	Limpiar Pantalla;
+	Escribir "Ingrese clase: ";
+	Leer clase;
+	Limpiar Pantalla;
+FinAlgoritmo
