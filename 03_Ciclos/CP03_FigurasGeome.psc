@@ -20,7 +20,6 @@ Funcion cuadrado (lado)
 		Fin Para
 		saltarLinea();
 	Fin Para
-	
 FinFuncion
 
 Funcion rectangulo (ancho, largo)
@@ -34,12 +33,28 @@ Funcion rectangulo (ancho, largo)
 	Fin Para
 FinFuncion
 
-Funcion triangulo ()
+Funcion triangulo (base)
+	Definir a, b, c Como Entero;
 	
+	Para a = base Hasta 1 Con Paso -1 Hacer
+		Para b = 1 Hasta a Con Paso 1 Hacer
+			Escribir Sin Saltar " ";
+		FinPara
+		
+		Para c = a Hasta base Con Paso 1 Hacer
+			Escribir Sin Saltar "* ";
+		FinPara
+		
+		Escribir "";
+	Fin Para
 FinFuncion
 
 Algoritmo EjeFuncion
-	Definir opc, lado, ancho, largo Como Entero;
+	Definir opc, base, lado, ancho, largo Como Entero;
+	Escribir "************************************";
+	Escribir "* Algoritmo de SALUDA 10 VECES	  *";
+	Escribir "* Autor: Alan Avalos               *";
+	Escribir "************************************";
 	
 	linea();
 	Escribir "Algoritmo FIGURAS GEOMETRICAS";
@@ -65,7 +80,9 @@ Algoritmo EjeFuncion
 			Leer largo;
 			rectangulo(ancho, largo);
 		3:
-			//Dibujar triangulo
+			Escribir Sin Saltar "Escribir el numero de base";
+			Leer base;
+			triangulo(base);
 		De Otro Modo:
 			Escribir "Opción incorrecta";
 	Fin Segun
