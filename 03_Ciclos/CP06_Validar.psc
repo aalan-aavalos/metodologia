@@ -7,7 +7,7 @@ Algoritmo CP06_Validar
 	Definir numeroText Como Caracter;
 	
 	Escribir "************************************";
-	Escribir "* Algoritmo de DATO NUMERICO       *";
+	Escribir "* Algoritmo de VALIDAR             *";
 	Escribir "* Autor: Alan Avalos               *";
 	Escribir "************************************";
 	saltarLinea();
