@@ -52,7 +52,7 @@ FinFuncion
 Algoritmo EjeFuncion
 	Definir opc, base, lado, ancho, largo Como Entero;
 	Escribir "************************************";
-	Escribir "* Algoritmo de SALUDA 10 VECES	  *";
+	Escribir "* Algoritmo de FIGURAS GEOMETRICAS *";
 	Escribir "* Autor: Alan Avalos               *";
 	Escribir "************************************";
 	
