@@ -1,3 +1,11 @@
+Funcion saludar()
+	Definir num Como Entero;
+	
+	Para num = 1 Hasta 10 Con Paso 1 Hacer
+		Escribir num, " Hola a todos :)";
+	FinPara
+FinFuncion
+
 Algoritmo CP01_Saludo
 	
 	Escribir "************************************";
@@ -5,9 +13,5 @@ Algoritmo CP01_Saludo
 	Escribir "* Autor: Alan Avalos               *";
 	Escribir "************************************";
 	
-	Definir num Como Entero;
-	
-	Para num = 1 Hasta 10 Con Paso 1 Hacer
-		Escribir num, " Hola a todos :)";
-	FinPara
+	saludar();
 FinAlgoritmo

@@ -2,18 +2,9 @@ Funcion saltarLinea ()
 	Escribir "";
 FinFuncion
 
-Algoritmo Cuent_Letras
-	Definir name, car Como Caracter;
+Funcion cuenta(name)
+	Definir car Como Caracter;
 	Definir conta, vocal, consonante, espacio, estranio Como Entero;
-	
-	Escribir "************************************";
-	Escribir "* Algoritmo de CUENTA LETRAS       *";
-	Escribir "* Autor: Alan Avalos               *";
-	Escribir "************************************";
-	
-	saltarLinea();
-	Escribir Sin Saltar "Ingresa tu nombre ";
-	Leer name;
 	
 	Escribir "Tamaño ", Longitud(name);
 	
@@ -45,5 +36,19 @@ Algoritmo Cuent_Letras
 	Escribir "Consonantes: ", consonante;
 	Escribir "Espacios: ", espacio;
 	Escribir "Extraños: ", estranio;
+FinFuncion
+
+Algoritmo Cuent_Letras
+	Definir name Como Caracter;
 	
+	Escribir "************************************";
+	Escribir "* Algoritmo de CUENTA LETRAS       *";
+	Escribir "* Autor: Alan Avalos               *";
+	Escribir "************************************";
+	
+	saltarLinea();
+	Escribir Sin Saltar "Ingresa tu nombre ";
+	Leer name;
+	
+	cuenta(name);
 FinAlgoritmo

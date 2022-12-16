@@ -2,28 +2,8 @@ Funcion saltarLinea ()
 	Escribir "";
 FinFuncion
 
-Algoritmo CP04_Series
-	Definir cont, opc, num, fact, fin1, fin2, fin3 Como Entero;
-	
-	Escribir "************************************";
-	Escribir "* Algoritmo de SERIES              *";
-	Escribir "* Autor: Alan Avalos               *";
-	Escribir "************************************";
-	saltarLinea();
-	Escribir "************************************";
-	Escribir "* Elige una entre las 4 series     *";
-	Escribir "*                                  *";
-	Escribir "*  1) Serie I                      *";
-	Escribir "*  2) Serie II                     *";
-	Escribir "*  3) Serie III                    *";
-	Escribir "*  4) Serie IV                     *";
-	Escribir "*                                  *";
-	Escribir "************************************";
-	saltarLinea();
-	
-	Escribir Sin Saltar "Elige una serie: ";
-	Leer opc;
-	saltarLinea();
+Funcion serie(opc)
+	Definir cont, num, fact, fin1, fin2, fin3 Como Entero;
 	
 	Segun opc Hacer
 		1:
@@ -97,5 +77,30 @@ Algoritmo CP04_Series
 		De Otro Modo:
 			Escribir " Numero ingresado incorrecto";
 	FinSegun
+FinFuncion
+
+Algoritmo CP04_Series
+	Definir opc Como Entero;
 	
+	Escribir "************************************";
+	Escribir "* Algoritmo de SERIES              *";
+	Escribir "* Autor: Alan Avalos               *";
+	Escribir "************************************";
+	saltarLinea();
+	Escribir "************************************";
+	Escribir "* Elige una entre las 4 series     *";
+	Escribir "*                                  *";
+	Escribir "*  1) Serie I                      *";
+	Escribir "*  2) Serie II                     *";
+	Escribir "*  3) Serie III                    *";
+	Escribir "*  4) Serie IV                     *";
+	Escribir "*                                  *";
+	Escribir "************************************";
+	saltarLinea();
+	
+	Escribir Sin Saltar "Elige una serie: ";
+	Leer opc;
+	saltarLinea();
+	
+	serie(opc);
 FinAlgoritmo
